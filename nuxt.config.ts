@@ -17,7 +17,7 @@ export default defineNuxtConfig({
     meta: true,
     defaultLocale: 'en',    
     translationDir: 'locales',
-    autoDetectLanguage: false,
+    autoDetectLanguage: true,
     autoDetectPath: '/',
     metaBaseUrl: 'https://example.com',
     includeDefaultLocaleRoute: true,
